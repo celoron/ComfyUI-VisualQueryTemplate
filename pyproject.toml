@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-visualquerytemplate"
+description = "A ComfyUI node for transforming images into descriptive text using templated visual question answering. Leverages Hugging Face's VQA models with transformers"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "numpy", "transformers"]
+
+[project.urls]
+Repository = "https://github.com/celoron/ComfyUI-VisualQueryTemplate"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-VisualQueryTemplate"
+Icon = ""
